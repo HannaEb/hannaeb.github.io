@@ -1,0 +1,7 @@
+.about {
+  @include max-width;
+}
+
+.avatar {
+  border-radius: 50%;
+}
