@@ -1,0 +1,28 @@
+.header {
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 0;
+
+  @include max-width;
+}
+
+.contact {
+  display: flex;
+
+  &__item {
+    font-size: 3rem;
+    padding-left: 3rem;
+  }
+
+  &__icon {
+    background-color: #666;
+    color: white;
+    border-radius: 50%;
+    padding: 1rem;
+  }
+}
