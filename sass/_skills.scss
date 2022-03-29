@@ -6,11 +6,19 @@
 .skills {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-  grid-gap: 2em;
+  grid-gap: 3rem;
   align-items: center;
   justify-items: center;
 
   @include max-width;
+
+  @include respond(medium) {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  @include respond(large) {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
 
 .tech-logo {

@@ -8,6 +8,10 @@
 
 html {
   font-size: 50%; // 1rem = 8px
+
+  @include respond(large) {
+    font-size: 56.25%; // 1rem = 9px
+  }
 }
 
 body {
