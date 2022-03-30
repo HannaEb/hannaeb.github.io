@@ -1,18 +1,16 @@
 .footer {
-  padding: 0 2rem;
-}
-
-.footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  padding: 2rem;
 
   @include max-width;
-}
 
-.copyright {
-  &__text {
+  &__copyright {
     font-size: 2rem;
+  }
+
+  &__contact {
+    @include contact;
   }
 }
