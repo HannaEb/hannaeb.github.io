@@ -22,33 +22,35 @@
   <body>
     <header class="header">
       <nav class="navbar">
-        <div class="logo"></div>
-        <div class="contact">
-          <div class="contact__item">
+        <div class="navbar__logo-box">
+          <img src="assets/logo.png" alt="Logo" class="navbar__logo" />
+        </div>
+        <div class="navbar__contact">
+          <div class="navbar__contact-item">
             <a
               href="https://github.com/HannaEb"
               target="blank"
-              class="contact__link"
+              class="navbar__contact-link"
             >
-              <i class="fa-brands fa-github-alt contact__icon"></i>
+              <i class="fa-brands fa-github-alt navbar__contact-icon"></i>
             </a>
           </div>
-          <div class="contact__item">
+          <div class="navbar__contact-item">
             <a
               href="https://www.linkedin.com/in/hanna-eberhoefer"
               target="blank"
               class="contact__link"
             >
-              <i class="fa-brands fa-linkedin-in contact__icon"></i>
+              <i class="fa-brands fa-linkedin-in navbar__contact-icon"></i>
             </a>
           </div>
-          <div class="contact__item">
+          <div class="navbar__contact-item">
             <a
               href="mailto: hannaeberhoefer@yahoo.com"
               target="blank"
               class="contact__link"
             >
-              <i class="fa-solid fa-envelope contact__icon"></i>
+              <i class="fa-solid fa-envelope navbar__contact-icon"></i>
             </a>
           </div>
         </div>
@@ -58,7 +60,7 @@
       <section class="section-about">
         <div class="about">
           <div class="about__avatar-box">
-            <img src="assets/avatar.png" alt="Avatar" class="avatar" />
+            <img src="assets/avatar.png" alt="Avatar" class="about__avatar" />
           </div>
           <div class="about__text-box">
             <h2>Hi, I'm Hanna!</h2>
@@ -144,38 +146,36 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="footer-container">
-        <div class="copyright">
-          <p class="copyright__text">&copy; by Hanna</p>
+      <div class="footer__copyright-box">
+        <p class="footer__copyright">&copy; by Hanna</p>
+      </div>
+      <div class="footer__contact">
+        <div class="footer__contact-item">
+          <a
+            href="https://github.com/HannaEb"
+            target="blank"
+            class="footer__contact-link"
+          >
+            <i class="fa-brands fa-github-alt footer__contact-icon"></i>
+          </a>
         </div>
-        <div class="contact">
-          <div class="contact__item">
-            <a
-              href="https://github.com/HannaEb"
-              target="blank"
-              class="contact__link"
-            >
-              <i class="fa-brands fa-github-alt contact__icon"></i>
-            </a>
-          </div>
-          <div class="contact__item">
-            <a
-              href="https://www.linkedin.com/in/hanna-eberhoefer"
-              target="blank"
-              class="contact__link"
-            >
-              <i class="fa-brands fa-linkedin-in contact__icon"></i>
-            </a>
-          </div>
-          <div class="contact__item">
-            <a
-              href="mailto: hannaeberhoefer@yahoo.com"
-              target="blank"
-              class="contact__link"
-            >
-              <i class="fa-solid fa-envelope contact__icon"></i>
-            </a>
-          </div>
+        <div class="contact__item">
+          <a
+            href="https://www.linkedin.com/in/hanna-eberhoefer"
+            target="blank"
+            class="contact__link"
+          >
+            <i class="fa-brands fa-linkedin-in footer__contact-icon"></i>
+          </a>
+        </div>
+        <div class="contact__item">
+          <a
+            href="mailto: hannaeberhoefer@yahoo.com"
+            target="blank"
+            class="contact__link"
+          >
+            <i class="fa-solid fa-envelope footer__contact-icon"></i>
+          </a>
         </div>
       </div>
     </footer>

@@ -39,13 +39,10 @@ body {
   box-sizing: border-box; }
 
 .footer {
-  padding: 0 2rem; }
-
-.footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  padding: 2rem;
   max-width: 1200px;
   margin: 0 auto; }
 
@@ -60,20 +57,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0;
+  height: 15vh;
+  padding-top: 1rem;
   max-width: 1200px;
   margin: 0 auto; }
-
-.contact {
-  display: flex; }
-  .contact__item {
-    font-size: 2.5rem;
-    padding-left: 2.5rem; }
-  .contact__icon {
-    background-color: #666666;
-    color: #ffffff;
-    border-radius: 50%;
-    padding: 1rem; }
+  .navbar__logo {
+    height: 8rem; }
+  .navbar__contact {
+    display: flex; }
+    .navbar__contact-item {
+      font-size: 2.5rem;
+      padding-left: 2.5rem; }
+    .navbar__contact-icon {
+      background-color: #666666;
+      color: #ffffff;
+      border-radius: 50%;
+      padding: 1rem; }
 
 .section-skills {
   padding: 6rem 2rem;
