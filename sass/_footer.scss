@@ -12,5 +12,13 @@
 
   &__contact {
     @include contact;
+
+    &-icon {
+      background-color: $color-grey-dark;
+
+      &:hover {
+        background-color: $color-grey-medium;
+      }
+    }
   }
 }
