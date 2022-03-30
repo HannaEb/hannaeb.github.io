@@ -14,13 +14,12 @@
       .about__avatar-box {
         width: 50%;
         margin-bottom: 0; } }
+  .about__avatar {
+    border-radius: 50%;
+    max-width: 60%; }
   @media only screen and (min-width: 56.25em) {
     .about__text-box {
       width: 50%; } }
-
-.avatar {
-  border-radius: 50%;
-  max-width: 60%; }
 
 *,
 *::after,

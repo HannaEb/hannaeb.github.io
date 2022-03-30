@@ -19,14 +19,14 @@
     }
   }
 
+  &__avatar {
+    border-radius: 50%;
+    max-width: 60%;
+  }
+
   &__text-box {
     @include respond(large) {
       width: 50%;
     }
   }
-}
-
-.avatar {
-  border-radius: 50%;
-  max-width: 60%;
 }
