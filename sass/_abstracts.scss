@@ -4,6 +4,10 @@ $color-white: #ffffff;
 $color-grey-light: #f3f3f3;
 $color-grey-dark: #666666;
 
+$color-secondary: #7a2640;
+$color_tertiary-light: #5a5972;
+$color-tertiary-dark: #31304f;
+
 // Mixins
 
 @mixin max-width {
@@ -33,9 +37,13 @@ $color-grey-dark: #666666;
   }
 
   &-icon {
-    background-color: $color-grey-dark;
+    background-color: $color-tertiary-dark;
     color: $color-white;
     border-radius: 50%;
     padding: 1rem;
+
+    &:hover {
+      background-color: $color-tertiary-light;
+    }
   }
 }

@@ -37,6 +37,10 @@ html {
 body {
   box-sizing: border-box; }
 
+::selection {
+  background-color: #31304f;
+  color: #ffffff; }
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -52,10 +56,12 @@ body {
       font-size: 2.5rem;
       padding-left: 2.5rem; }
     .footer__contact-icon {
-      background-color: #666666;
+      background-color: #31304f;
       color: #ffffff;
       border-radius: 50%;
       padding: 1rem; }
+      .footer__contact-icon:hover {
+        background-color: #5a5972; }
 
 .header {
   padding: 0 2rem;
@@ -77,10 +83,12 @@ body {
       font-size: 2.5rem;
       padding-left: 2.5rem; }
     .navbar__contact-icon {
-      background-color: #666666;
+      background-color: #31304f;
       color: #ffffff;
       border-radius: 50%;
       padding: 1rem; }
+      .navbar__contact-icon:hover {
+        background-color: #5a5972; }
 
 .section-skills {
   padding: 6rem 2rem;
