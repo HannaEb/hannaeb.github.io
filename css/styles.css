@@ -64,6 +64,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 15vh;
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto; }
