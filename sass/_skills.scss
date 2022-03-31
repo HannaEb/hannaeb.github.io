@@ -1,6 +1,14 @@
 .section-skills {
-  padding: 6rem 2rem;
+  padding: 6rem 4rem;
   background-color: $color-grey-light;
+
+  @include respond(small) {
+    padding: 9rem 4rem;
+  }
+
+  @include respond(medium) {
+    padding: 9rem 6rem;
+  }
 }
 
 .skills {

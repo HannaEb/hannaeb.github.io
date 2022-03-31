@@ -1,16 +1,19 @@
 .section-about {
-  padding: 6rem 4rem;
+  padding: 6rem 6rem;
 
   @include respond(small) {
-    padding: 6rem 6rem;
+    padding: 9rem 6rem;
+  }
+
+  @include respond(medium) {
+    padding: 9rem 9rem;
   }
 }
 
 .about {
   @include max-width;
 
-  @include respond(small) {
-    // height: 60vh;
+  @include respond(medium) {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
@@ -20,7 +23,7 @@
     text-align: center;
     margin-bottom: 4rem;
 
-    @include respond(small) {
+    @include respond(medium) {
       width: 40%;
       margin-bottom: 0;
       margin-left: 10rem;
@@ -32,19 +35,24 @@
     max-width: 50%;
 
     @include respond(small) {
+      max-width: 30rem;
+    }
+
+    @include respond(medium) {
       width: 100%;
-      max-width: 100%;
+      max-width: 35rem;
     }
   }
 
   &__text-box {
-    @include respond(small) {
+    @include respond(medium) {
       width: 60%;
     }
   }
 
   &__text {
     &:not(:first-child) {
+      font-size: 2rem;
       margin-top: 1rem;
     }
   }
