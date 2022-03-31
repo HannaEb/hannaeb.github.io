@@ -66,6 +66,7 @@ body {
   align-items: center;
   height: 15vh;
   padding: 2rem;
+  background-color: #f3f3f3;
   max-width: 1200px;
   margin: 0 auto; }
   .footer__copyright {
@@ -114,6 +115,19 @@ body {
       .navbar__contact-icon:hover {
         background-color: #5a5972; }
 
+.section-projects {
+  padding: 6rem; }
+
+.project__image-box {
+  max-width: 100%; }
+
+.project__image {
+  max-width: 100%; }
+
+.project__text {
+  padding-top: 1.5rem;
+  padding-bottom: 6rem; }
+
 .section-skills {
   padding: 6rem 4rem;
   background-color: #f3f3f3; }
@@ -157,3 +171,7 @@ body {
 
 .heading-secondary {
   margin-bottom: 1rem; }
+
+.heading-tertiary {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem; }
