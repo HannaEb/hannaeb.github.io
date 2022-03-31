@@ -17,10 +17,15 @@ $color-tertiary-dark: #31304f;
 }
 
 @mixin respond($breakpoint) {
-  @if $breakpoint == medium {
+  @if $breakpoint == small {
     @media only screen and (min-width: 37.5em) {
       @content;
     } // >= 600px
+  }
+  @if $breakpoint == medium {
+    @media only screen and (min-width: 46.875em) {
+      @content;
+    } // >= 750px
   }
   @if $breakpoint == large {
     @media only screen and (min-width: 56.25em) {

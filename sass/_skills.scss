@@ -12,7 +12,7 @@
 
   @include max-width;
 
-  @include respond(medium) {
+  @include respond(small) {
     grid-template-columns: repeat(4, 1fr);
   }
 
