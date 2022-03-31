@@ -1,5 +1,5 @@
 .section-about {
-  padding: 6rem 2rem;
+  padding: 6rem 4rem;
 
   @include respond(small) {
     padding: 6rem 6rem;
@@ -40,6 +40,12 @@
   &__text-box {
     @include respond(small) {
       width: 60%;
+    }
+  }
+
+  &__text {
+    &:not(:first-child) {
+      margin-top: 1rem;
     }
   }
 }
