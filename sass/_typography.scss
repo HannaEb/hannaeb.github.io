@@ -7,10 +7,13 @@ body {
 }
 
 .heading-secondary {
-  margin-bottom: 1rem;
+  font-family: "Merriweather", serif;
+  font-size: 3rem;
+  color: $color-tertiary-dark;
 }
 
 .heading-tertiary {
+  font-family: "Merriweather", serif;
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
