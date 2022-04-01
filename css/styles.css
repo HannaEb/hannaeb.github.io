@@ -119,17 +119,16 @@ body {
         background-color: #5a5972; }
 
 .section-projects {
-  padding: 6rem; }
+  padding: 6rem 4rem; }
 
-.project__image-box {
-  max-width: 100%; }
-
-.project__image {
-  max-width: 100%; }
-
-.project__text {
-  padding-top: 1.5rem;
-  padding-bottom: 6rem; }
+.project-card {
+  box-shadow: 0 2px 8px rgba(102, 102, 102, 0.2);
+  padding: 4rem;
+  margin-bottom: 6rem; }
+  .project-card__image-box {
+    max-width: 100%; }
+  .project-card__image {
+    max-width: 100%; }
 
 .section-skills {
   padding: 6rem 4rem;
