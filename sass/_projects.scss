@@ -16,11 +16,44 @@
   grid-gap: 6rem;
   align-items: center;
   justify-content: center;
+
+  @include respond(small) {
+    grid-template-columns: 60rem;
+  }
+
+  @include respond(medium) {
+    grid-template-columns: 100%;
+  }
+
+  @include respond(large) {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: stretch;
+  }
+
+  @include max-width;
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
   box-shadow: 0 2px 8px rgba($color-grey-dark, 0.2);
   padding: 4rem;
+
+  @include respond(medium) {
+    flex-direction: row;
+  }
+
+  @include respond(large) {
+    flex-direction: column;
+  }
+
+  &__text-box {
+    @include respond(medium) {
+      align-self: center;
+      flex: 1 1 0;
+      margin-right: 3rem;
+    }
+  }
 
   &__text {
     font-size: 1.7rem;
@@ -32,6 +65,11 @@
     background-color: $color-grey-light;
     padding: 1rem;
     border-radius: 1rem;
+
+    @include respond(medium) {
+      align-self: center;
+      flex: 1 1 0;
+    }
   }
 
   &__image {
