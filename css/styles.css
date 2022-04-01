@@ -36,9 +36,10 @@
   @media only screen and (min-width: 46.875em) {
     .about__text-box {
       width: 60%; } }
-  .about__text:not(:first-child) {
-    font-size: 2rem;
-    margin-top: 1rem; }
+  .about__text {
+    font-size: 2rem; }
+    .about__text:not(:last-child) {
+      margin-bottom: 1.5rem; }
 
 *,
 *::after,
@@ -57,7 +58,7 @@ body {
   box-sizing: border-box; }
 
 ::selection {
-  background-color: #31304f;
+  background-color: #285185;
   color: #ffffff; }
 
 .footer-container {
@@ -80,7 +81,7 @@ body {
       font-size: 2.5rem;
       padding-left: 2.5rem; }
     .footer__contact-icon {
-      background-color: #31304f;
+      background-color: #285185;
       color: #ffffff;
       border-radius: 50%;
       padding: 1rem; }
@@ -109,25 +110,42 @@ body {
       font-size: 2.5rem;
       padding-left: 2.5rem; }
     .navbar__contact-icon {
-      background-color: #31304f;
+      background-color: #285185;
       color: #ffffff;
       border-radius: 50%;
       padding: 1rem; }
     .navbar__contact-icon {
-      background-color: #31304f; }
+      background-color: #285185; }
       .navbar__contact-icon:hover {
-        background-color: #5a5972; }
+        background-color: #6985aa; }
 
 .section-projects {
-  padding: 6rem 4rem; }
+  padding: 6rem 6rem; }
+  @media only screen and (min-width: 37.5em) {
+    .section-projects {
+      padding: 9rem 6rem; } }
+  @media only screen and (min-width: 46.875em) {
+    .section-projects {
+      padding: 9rem 9rem; } }
+
+.projects {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 6rem;
+  align-items: center;
+  justify-content: center; }
 
 .project-card {
   box-shadow: 0 2px 8px rgba(102, 102, 102, 0.2);
   padding: 4rem; }
   .project-card__image-box {
-    max-width: 100%; }
+    max-width: 100%;
+    background-color: #f3f3f3;
+    padding: 1rem; }
   .project-card__image {
     max-width: 100%; }
+  .project-card__text {
+    font-size: 1.7rem; }
 
 .section-skills {
   padding: 6rem 4rem;
@@ -173,7 +191,8 @@ body {
 .heading-secondary {
   font-family: "Merriweather", serif;
   font-size: 3rem;
-  color: #31304f; }
+  color: #285185;
+  margin-bottom: 1.5rem; }
 
 .heading-tertiary {
   font-family: "Merriweather", serif;

@@ -20,10 +20,10 @@
     @include contact;
 
     &-icon {
-      background-color: $color-tertiary-dark;
+      background-color: $color-secondary-dark;
 
       &:hover {
-        background-color: $color-tertiary-light;
+        background-color: $color-secondary-light;
       }
     }
   }
