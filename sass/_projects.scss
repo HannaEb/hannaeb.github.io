@@ -1,16 +1,41 @@
 .section-projects {
-  padding: 6rem 4rem;
+  padding: 6rem 6rem;
+
+  @include respond(small) {
+    padding: 9rem 6rem;
+  }
+
+  @include respond(medium) {
+    padding: 9rem 9rem;
+  }
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 6rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-card {
   box-shadow: 0 2px 8px rgba($color-grey-dark, 0.2);
   padding: 4rem;
 
+  &__text {
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+  }
+
   &__image-box {
     max-width: 100%;
+    background-color: $color-grey-light;
+    padding: 1rem;
+    border-radius: 1rem;
   }
 
   &__image {
     max-width: 100%;
+    border-radius: 1rem;
   }
 }

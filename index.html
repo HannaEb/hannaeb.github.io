@@ -10,8 +10,8 @@
       rel="stylesheet"
     />
 
-    <link 
-      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" 
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
       rel="stylesheet"
     />
 
@@ -148,9 +148,18 @@
       </section>
       <section class="section-projects">
         <div class="projects">
-          <h2 class="heading-secondary">Projects</h2>
+          <!-- <h2 class="heading-secondary">Projects</h2> -->
           <div class="project-card">
-            <h3 class="heading-tertiary">Memories</h3>
+            <div class="project-card__text-box">
+              <h3 class="heading-tertiary">Memories</h3>
+              <p class="project-card__text">
+                Landing Page with a dynamic navbar, active sections and smooth
+                scrolling, as well as a spinning globe.
+              </p>
+              <p class="project-card__text">
+                Build with HTML, CSS, JavaScript and Three.
+              </p>
+            </div>
             <div class="project-card__image-box">
               <img
                 src="assets/screenshot-memories.png"
@@ -158,63 +167,71 @@
                 class="project-card__image"
               />
             </div>
+          </div>
+          <div class="project-card">
             <div class="project-card__text-box">
+              <h3 class="heading-tertiary">Travel Planner</h3>
               <p class="project-card__text">
-                Memories - Landing Page with a dynamic navbar, and a spinning
-                globe made with Three.js. Build with HTML, CSS, and JavaScript.
+                A travel planner that obtains a destination and travel dates
+                from the user, then uses several APIs to display information
+                about the weather, the country, interesting local sights as well
+                as images of the destination.
               </p>
+              <p class="project-card__text">
+                Built with JavaScript, Sass, Webpack and Express.
+              </p>
+            </div>
+            <div class="project-card__image-box">
+              <img
+                src="assets/screenshot-travelplanner.png"
+                alt="Travel Planner"
+                class="project-card__image"
+              />
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card__text-box">
+              <h3 class="heading-tertiary">My Reads</h3>
+              <p class="project-card__text">
+                A virtual bookcase that allows users to store books and track
+                what they are reading. Using the provided API, users can search
+                for books and add them to a bookshelf, as well as delete books
+                and move them from fron shelf to another.
+              </p>
+              <p class="project-card__text">
+                Built with React, React Router and CSS.
+              </p>
+            </div>
+            <div class="project-card__image-box">
+              <img
+                src="assets/screenshot-myreads.png"
+                alt="My Reads"
+                class="project-card__image"
+              />
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card__text-box">
+              <h3 class="heading-tertiary">Would You Rather...?</h3>
+              <p class="project-card__text">
+                A fun online game that allows users to ask and answer questions
+                and see statistics for questions they have answered. The goal is
+                to climb as high up on the leaderboard as possible!
+              </p>
+              <p class="project-card__text">
+                Built with React, React Router, Redux, Immer, Bootstrap and
+                Reactstrap.
+              </p>
+            </div>
+            <div class="project-card__image-box">
+              <img
+                src="assets/screenshot-wyr.png"
+                alt="Would You Rather"
+                class="project-card__image"
+              />
             </div>
           </div>
         </div>
-        <div class="project-card">
-          <h3 class="heading-tertiary">Travel Planner</h3>
-          <div class="project-card__image-box">
-            <img
-              src="assets/screenshot-travelplanner.png"
-              alt="Travel Planner"
-              class="project-card__image"
-            />
-          </div>
-          <div class="project-card__text-box">
-            <p class="project-card__text">
-            Travel Planner - Lorem ipsum dolor sit amet, consectetur adipiscing 
-            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        </div>
-        <div class="project-card">
-          <h3 class="heading-tertiary">My Reads</h3>
-          <div class="project-card__image-box">
-            <img
-              src="assets/screenshot-myreads.png"
-              alt="My Reads"
-              class="project-card__image"
-            />
-          </div>
-          <div class="project-card__text-box">
-            <p class="project-card__text">
-              My Reads - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-              tempor incididunt ut labore et dolore magna aliqua.
-            </p>
-          </div>
-        </div>
-        <div class="project-card">
-          <h3 class="heading-tertiary">Would You Rather...?</h3>
-          <div class="project-card__image-box">
-            <img
-              src="assets/screenshot-wyr.png"
-              alt="Would You Rather"
-              class="project-card__image"
-            />
-          </div>
-          <div class="project-card__text-box">
-          <p class="project-card__text">
-            Would You Rather...? - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua.
-          </p>
-        </div>
-        </div>
-      </div>
       </section>
     </main>
     <footer class="footer-container">
