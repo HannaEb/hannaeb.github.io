@@ -1,5 +1,6 @@
 .section-about {
   padding: 6rem 6rem;
+  border-bottom: 1px solid $color-grey-light;
 
   @include respond(small) {
     padding: 9rem 6rem;

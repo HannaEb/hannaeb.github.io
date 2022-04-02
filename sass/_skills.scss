@@ -1,5 +1,6 @@
 .section-skills {
   padding: 6rem 4rem;
+  border-bottom: 1px solid $color-grey-light;
   background-color: $color-grey-light;
 
   @include respond(small) {

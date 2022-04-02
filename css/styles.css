@@ -1,5 +1,6 @@
 .section-about {
-  padding: 6rem 6rem; }
+  padding: 6rem 6rem;
+  border-bottom: 1px solid #f3f3f3; }
   @media only screen and (min-width: 37.5em) {
     .section-about {
       padding: 9rem 6rem; } }
@@ -175,12 +176,16 @@ body {
       .project-card__image-box {
         align-self: center;
         flex: 1 1 0; } }
+    @media only screen and (min-width: 56.25em) {
+      .project-card__image-box {
+        flex: 0; } }
   .project-card__image {
     max-width: 100%;
     border-radius: 1rem; }
 
 .section-skills {
   padding: 6rem 4rem;
+  border-bottom: 1px solid #f3f3f3;
   background-color: #f3f3f3; }
   @media only screen and (min-width: 37.5em) {
     .section-skills {
