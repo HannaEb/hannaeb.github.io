@@ -45,7 +45,6 @@
 
   @include respond(large) {
     flex-direction: column;
-    // align-items: flex-start;
   }
 
   &__text-box {
@@ -64,7 +63,7 @@
   &__image-box {
     max-width: 100%;
     background-color: $color-grey-light;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 1rem;
 
     @include respond(medium) {
@@ -78,7 +77,54 @@
   }
 
   &__image {
+    display: block;
     max-width: 100%;
     border-radius: 1rem;
+  }
+}
+
+.content {
+  position: relative;
+
+  &__overlay {
+    background: rgba($color-secondary-dark, 0.8);
+    position: absolute;
+    border-radius: 1rem;
+    inset: 0;
+    opacity: 0;
+    transition: all 0.3s ease-in-out 0.1s;
+  }
+
+  &:hover &__overlay {
+    opacity: 1;
+  }
+
+  &__details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease-in-out 0.1s;
+  }
+
+  &:hover &__details {
+    opacity: 1;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $color-white;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    padding: 0.5rem 2.5rem;
+    border: 1px solid white;
+    border-radius: 4rem;
   }
 }
