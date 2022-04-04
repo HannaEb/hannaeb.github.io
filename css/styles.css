@@ -1,6 +1,6 @@
 .section-about {
   padding: 6rem 6rem;
-  border-bottom: 1px solid #f3f3f3; }
+  border-bottom: 1px solid #f7f7f9; }
   @media only screen and (min-width: 37.5em) {
     .section-about {
       padding: 9rem 6rem; } }
@@ -64,7 +64,7 @@ body {
 
 .footer-container {
   padding: 0 2rem;
-  background-color: #f3f3f3; }
+  background-color: #f7f7f9; }
 
 .footer {
   display: flex;
@@ -93,7 +93,7 @@ body {
 
 .header {
   padding: 0 2rem;
-  border-bottom: 1px solid #f3f3f3; }
+  border-bottom: 1px solid #f7f7f9; }
 
 .navbar {
   display: flex;
@@ -169,8 +169,8 @@ body {
     margin-bottom: 3rem; }
   .project-card__image-box {
     max-width: 100%;
-    background-color: #f3f3f3;
-    padding: 0.5rem;
+    background-color: #f7f7f9;
+    box-shadow: 0 1px 4px rgba(102, 102, 102, 0.2);
     border-radius: 1rem; }
     @media only screen and (min-width: 46.875em) {
       .project-card__image-box {
@@ -188,6 +188,7 @@ body {
   position: relative; }
   .content__overlay {
     background: rgba(40, 81, 133, 0.8);
+    background-size: cover;
     position: absolute;
     border-radius: 1rem;
     inset: 0;
@@ -221,8 +222,8 @@ body {
 
 .section-skills {
   padding: 6rem 4rem;
-  border-bottom: 1px solid #f3f3f3;
-  background-color: #f3f3f3; }
+  border-bottom: 1px solid #f7f7f9;
+  background-color: #f7f7f9; }
   @media only screen and (min-width: 37.5em) {
     .section-skills {
       padding: 9rem 4rem; } }
