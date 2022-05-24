@@ -2,7 +2,7 @@
   display: flex;
   padding: 6rem 6rem;
   border-bottom: 2px solid #f7f7f9;
-  min-height: 65vh;
+  min-height: 75vh;
   background-color: #f7f7f9; }
   @media only screen and (min-width: 37.5em) {
     .section-about {

@@ -2,7 +2,7 @@
   display: flex;
   padding: 6rem 6rem;
   border-bottom: 2px solid $color-grey-light;
-  min-height: 65vh;
+  min-height: 75vh;
   background-color: $color-grey-light;
 
   @include respond(small) {
