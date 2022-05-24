@@ -9,8 +9,12 @@
 html {
   font-size: 50%; // 1rem = 8px
 
+  @include respond(medium) {
+    font-size: 56.25%; //1rem = 9px
+  }
+
   @include respond(large) {
-    font-size: 56.25%; // 1rem = 9px
+    font-size: 62.5%; // 1rem = 10px
   }
 }
 
