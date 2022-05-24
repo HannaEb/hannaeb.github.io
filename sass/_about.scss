@@ -1,13 +1,18 @@
 .section-about {
+  display: flex;
   padding: 6rem 6rem;
-  border-bottom: 1px solid $color-grey-light;
+  border-bottom: 2px solid $color-grey-light;
+  min-height: 65vh;
+  background-color: $color-grey-light;
 
   @include respond(small) {
     padding: 9rem 6rem;
+    margin: auto;
   }
 
   @include respond(medium) {
     padding: 9rem 9rem;
+    margin: auto;
   }
 }
 

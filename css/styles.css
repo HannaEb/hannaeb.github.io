@@ -1,12 +1,17 @@
 .section-about {
+  display: flex;
   padding: 6rem 6rem;
-  border-bottom: 1px solid #f7f7f9; }
+  border-bottom: 2px solid #f7f7f9;
+  min-height: 65vh;
+  background-color: #f7f7f9; }
   @media only screen and (min-width: 37.5em) {
     .section-about {
-      padding: 9rem 6rem; } }
+      padding: 9rem 6rem;
+      margin: auto; } }
   @media only screen and (min-width: 46.875em) {
     .section-about {
-      padding: 9rem 9rem; } }
+      padding: 9rem 9rem;
+      margin: auto; } }
 
 .about {
   max-width: 1200px;
@@ -51,9 +56,12 @@
 
 html {
   font-size: 50%; }
-  @media only screen and (min-width: 56.25em) {
+  @media only screen and (min-width: 46.875em) {
     html {
       font-size: 56.25%; } }
+  @media only screen and (min-width: 56.25em) {
+    html {
+      font-size: 62.5%; } }
 
 body {
   box-sizing: border-box; }
@@ -63,8 +71,7 @@ body {
   color: #ffffff; }
 
 .footer-container {
-  padding: 0 2rem;
-  background-color: #f7f7f9; }
+  padding: 0 2rem; }
 
 .footer {
   display: flex;
@@ -93,7 +100,7 @@ body {
 
 .header {
   padding: 0 2rem;
-  border-bottom: 1px solid #f7f7f9; }
+  border-bottom: 2px solid #f7f7f9; }
 
 .navbar {
   display: flex;
