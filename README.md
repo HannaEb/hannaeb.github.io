@@ -1,6 +1,6 @@
 # Portfolio
 
-![(assets/screenshot.png)]
+![](assets/screenshot.png)
 
 ## Author
 
